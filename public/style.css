@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: rgb(36, 158, 148);
+  padding: 3px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+main {
+  margin: 30px;
+  height: 400px;
+}
+h1 {
+  color: rgb(57, 66, 83);
+}
+.company-name {
+  text-align: left;
+}
+.text {
+  text-align: left;
+  padding-left: 30px;
+  color: rgb(36, 158, 148);
+}
+.home-text {
+  border-radius: 5px;
+  width: 300px;
+  margin-left: 200px;
+}
+.home-opening {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 80px 0;
+  margin: 60px -30px 60px -30px;
+  background-color: rgb(209, 240, 250);
+  position: relative;
+  overflow: hidden;
+}
+.home-image {
+  position: absolute;
+  width: 200px;
+  bottom: -80px;
+  left: 100px;
+}
+.main-service {
+  display: flex;
+  justify-content: space-around;
+}
+.services {
+  background-color: lightgrey;
+  width: 200px;
+  height: 180px;
+  border: 3px solid rgb(148, 148, 148);
+  padding: 20px;
+  margin: 20px;
+}
+#input {
+  margin: 10px 0;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: rgb(148, 148, 148);
+}
+.submit {
+  padding: 8px;
+  background-color: rgb(36, 158, 148);
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+.pro-selection {
+  position: relative;
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgb(199, 211, 218);
+  border-radius: 15px;
+}

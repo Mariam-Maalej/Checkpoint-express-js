@@ -1,0 +1,38 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='style.css')
+  title Contact
+header
+  nav.navbar
+    ul
+      li
+        a.navbar(href='/') Home
+      li
+        a.navbar(href='services') Our Services
+      li
+        a.navbar(href='contact') Contact Us
+main
+    h1 Contact us
+    form.pro-selection
+      label(for='email') E-mail
+      br
+      input#input(type='text' placeholder='Write your e-mail')
+      br
+      label(for='pro-selection') Professional situation
+      br
+      select#input
+        option(value='') --Please choose an option--
+        option(value='student') Student
+        option(value='professional') Professional
+        option(value='intership') Looking for intership
+        option(value='other') Other
+      br
+      label(for='message') Message
+      br
+      textarea#input(rows='4' cols='50' placeholder='Write your message here')
+      br
+      input.submit(type='submit' value='Submit')
+footer
+  span @ XYZ Company 2020
